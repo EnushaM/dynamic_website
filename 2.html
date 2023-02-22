@@ -1,0 +1,212 @@
+<html>
+	<head>
+		<title>Website Replica</title>
+		<link rel="stylesheet" href="2.css">
+		<link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="path/to/fontawesome.min.css">
+		<script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<header>
+			<span class="logo">Enusha M</span>
+			<nav class="nav">
+					<a href="#home" class="active">home</a>
+					<a id="nav-btn"href="#pro">projects</a>
+					<a id="nav-btn" href="#team">team</a>
+					<a id="nav-btn" href="#contacts">contacts</a>
+			</nav>
+			<button onclick="contact()" id="book">Book an Appointment</button>
+		</header>
+		<div id="contact" style="display: none;">
+			<form class="form">
+				<h2>Book your Appointment</h2>
+				<div class="form-item">
+					<label for=name>Name</label>
+					<input type="text" placeholder="Enusha M"id="name">
+				</div>
+				<div class="form-item">
+					<label for=email>Email</label>
+					<input spellcheck="true" type="email" placeholder="enusha@gmail.com" id="email">
+				</div>
+				<div class="form-item">
+					<label for="mobile">Phone</label>
+					<input type="number"placeholder="9807546334" id="mobile">
+				</div>
+				<div style="padding-left: 100px;" class="form-item">
+					<button onclick="rem()" id="sub">Submit</button>	
+				</div>
+			</form>
+		</div>
+		<section class="per">
+			<img id="im"onclick="changebg()" src="Pics/c1.jpg">
+			<div class="bottom">
+				<p>tuning perfection</p>
+				<h2>tuning is an upgrade that unlocks hidden potential of your car</h2>
+				<p class='btn'><i class='fas fa-arrow-down'></i> Explore</p>
+			</div>
+		</section>
+		<section class="tun">
+			<div class="img1">
+				<img class="c2"src="Pics/c2.jpg">
+			</div>
+			<div class="para1">
+				<p>why do you want it</p>
+				<h2 id="hi" onmouseover="changetext()">what is tuning and why do you want it?</h2>
+				<p class="content">tuning is an upgrade to the software in the vehicle's computer. custom software is installed that changs many parameters that control the way the engine operatrs. with proper tuning, you can increase both power anf duel economy</p>
+				<div class="icon">
+					<div class="icon-div">
+						<i class="fa fa-key"></i>
+						<p>a corresponding tool for high horsepower builds</p>
+					</div>
+ 
+					<div class="icon-div">
+						<i class="fa fa-gas-pump"></i>
+						<p>with proper tuning you can increase fuel economy</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="prop">
+			<div class="img2">
+				<img src="Pics/c4.jpg" class="c3">
+			</div>
+			<div class="para3">
+				<p>Our Speciality</p>
+				<h2 id="h" onmouseover="changetext()">Why do you choose us?</h2>
+				<div class="wrapper">
+					<div class="content-box">
+						<div class="card">
+							<i class="fa fa-location-arrow"></i>
+							<h4>Lorem</h4>
+						</div>
+
+						<div class="card">
+							<i class="fas fa-air-freshener"></i>
+							<h4>Ipsium</h4>
+						</div>				
+
+						<div class="card">
+							<i class="fa fa-users"></i>
+							<h4>Vetas</h4>
+						</div>
+
+						<div class="card">
+							<i class="fa fa-calculator"></i>
+							<h4>Manson</h4>
+						</div>
+
+						<div class="card">
+							<i class="fa fa-delicious"></i>
+							<h4>Iptaca</h4>
+						</div>
+
+						<div class="card">
+							<i class="fa fa-motorcycle"></i>
+							<h4>Votofo</h4>
+						</div>
+
+						<div class="card">
+							<i class="fa fa-credit-card-alt"></i>
+							<h4>Turpis </h4>
+						</div>
+
+						<div class="card">
+							<i class="fa fa-diamond"></i>
+							<h4>Egastas</h4>
+						</div>
+
+						<div class="card">
+							<i class="fa fa-money"></i>
+							<h4>Tempor</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>	
+			<section class="adv">
+				<div class="img3">
+					<img class="c4"src="Pics/c3.jpg">
+				</div>
+				<div class="para2">
+					<p>advantages</p>
+					<h2 id="i" onmouseover="changetext()">what can i except from tuning?</h2>
+					<p class="content">What can I Expect from Tuning</p>
+					<p class="content">Through proper modification,it is possible to greatly increase the power output of the vehicle. While at the same time improving safety and longevity of the engine,drivability, and smoothness.</p>
+					<div class="icon">
+						<div class="icon-div">
+							<h5>20-35 hp</h5>
+							<p>roughly increase from a stage 1 tune</p>
+						</div>
+						<div class="icon-div">
+							<h5>35-50 hp</h5>
+							<p>roughly increase from a stage 2 tune</p>
+						</div>
+					</div>
+				</div>
+		</section>
+
+		<section class="new">
+			<center>
+			<div>
+			<p>New venture</p>						
+			<h2 id="mar">something  new  coming  soon!!</h2>
+			<svg onclick="marquee()" width="365" height="185">
+			    <!-- Top -->
+			      <rect x="70" y="10" width="220" height="130" fill="transparent" rx="150" stroke="#ff5724" stroke-width="10" />
+			    
+			    <!-- Body -->
+			      <rect x="10" y="70" width="340" height="80" fill="#ff5724" rx="30" />
+			      
+			    <g>
+			    <!-- Left line -->
+			      <line x1="145" y1="10" x2="145" y2="80" stroke="#ff5724" stroke-width="10"/>
+
+			    <!-- Right line -->
+			      <line x1="215" y1="10" x2="215" y2="80" stroke="#ff5724" stroke-width="10"/>
+			    </g>
+			  
+			    <g>
+			    <!-- Left bumper -->
+			      <rect x="0" y="110" width="40" height="20" fill="#999" rx="10" />
+			    
+			    <!-- Right bumper -->
+			      <rect x="325" y="110" width="40" height="20" fill="#999" rx="10" />
+			    </g>  
+			  
+			    <!-- Left wheel -->
+			    <g>
+			      <circle r="40px" fill="#222" stroke="white" stroke-width="7" cx="90" cy="140"/>    
+			      <circle r="15px" fill="#555" cx="90" cy="140"/>
+			    </g>
+			  
+			    <!-- Right wheel -->
+			    <g>
+			      <circle r="40px" fill="#222" stroke="white" stroke-width="7" cx="270" cy="140"/>
+			      <circle r="15px" fill="#555" cx="270" cy="140"/>
+			    </g>  
+
+			    <g>
+			    <!-- Gold light -->
+			      <circle r="15px" fill="gold" cx="340" cy="90"/>
+			      
+			    <!-- Orange light -->
+			      <circle r="10px" fill="orange" cx="15" cy="90"/>
+			    </g>  
+			</svg>  
+			</div>  
+		</section>
+		<footer>
+			<span class="logo">Enusha M</span>
+			<nav class="nav">
+					<a href="#home" class="active">home</a>
+					<a id="nav-btn"href="#pro">projects</a>
+					<a id="nav-btn" href="#team">team</a>
+					<a id="nav-btn" href="#contacts">contacts</a>
+			</nav>
+			<p><a href="#">@2019 Best Tuning.</a>All Rights Reserved.</p>
+		</footer>
+		<script type="text/javascript" src="2.js"></script>
+	</body>
+</html>
